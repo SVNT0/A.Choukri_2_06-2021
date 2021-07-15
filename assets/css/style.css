@@ -65,7 +65,7 @@ nav li a:hover{
     padding-top: 38px;
 }
 
-/* Recherche */
+/* Section Recherche */
 
 .recherche{
     margin-bottom: 30px;
@@ -79,24 +79,24 @@ nav li a:hover{
     margin-top: 10px;
 }
 
-.barre de recherche{
+.barrederecherche{
     margin-bottom: 30px;
     height: 50px;
 }
 
-.containerMarker{
+.conteneurMarker{
     background-color: #f2f2f2;
     border-radius: 15px 0 0 15px;
     width: 50px;
     flex-shrink: 0;
 }
 
-.containerMarker i{
+.conteneurMarker i{
     margin: auto;
     font-size: 1.2rem;
 }
 
-.searchInput{
+.RechercheInput{
     border: 1px solid #f2f2f2;
     padding: 0 0 0 15px;
     font-size: 1.1rem;
@@ -104,11 +104,11 @@ nav li a:hover{
     width: 230px;
 }
 
-.searchInput::placeholder{
+.RechercheInput::placeholder{
     color: #c2c2c2;
 }
 
-.searchButton{
+.RechercheBouton{
     width: 130px;
     background-color: #0065FC;
     border: none;
@@ -121,65 +121,72 @@ nav li a:hover{
     flex-shrink: 0;
 }
 
-.searchButton i{
+.RechercheBouton i{
     display: none;
 }
-/* Recherche */
 
-.recherche{
+
+/* Filtres */
+
+.filtresText{
+    align-self: center;
+}
+
+.filtres{
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 1.1rem;
     margin-bottom: 30px;
 }
 
-.recherche h2{
-    margin-bottom: 10px;
+.filtre{
+    align-items: center;
+    height: 46px;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
 }
 
-.recherche p{
-    margin-top: 10px;
+.filtre span{
+    padding-left: 12px;
 }
 
-.barre de recherche{
-    margin-bottom: 30px;
-    height: 50px;
-}
-
-.containerMarker{
-    background-color: #f2f2f2;
-    border-radius: 15px 0 0 15px;
-    width: 50px;
-    flex-shrink: 0;
-}
-
-.containerMarker i{
-    margin: auto;
-    font-size: 1.2rem;
-}
-
-.searchInput{
-    border: 1px solid #f2f2f2;
-    padding: 0 0 0 15px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    width: 230px;
-}
-
-.searchInput::placeholder{
-    color: #c2c2c2;
-}
-
-.searchButton{
-    width: 130px;
-    background-color: #0065FC;
-    border: none;
-    padding: 0;
-    border-radius: 0 15px 15px 0;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.1rem;
+.filtre:hover{
     cursor: pointer;
-    flex-shrink: 0;
+    border-color: #0065FC;
+    color: #0065FC;
 }
 
-.searchButton i{
-    display: none;
+.filtresList{
+    flex-wrap: wrap;
+}
+
+.filtresIcon{
+    position: relative;
+    right: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
+
+.filtresIcon i{
+    margin: auto;
+    color: #0065FC;
+}
+
+.iconInfo{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+
+.iconInfo i{
+    margin: auto;
+    font-size: .9rem;
+    color: #0065FC;  
 }
