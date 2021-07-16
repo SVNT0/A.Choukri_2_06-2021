@@ -190,3 +190,76 @@ nav li a:hover{
     font-size: .9rem;
     color: #0065FC;  
 }
+
+/* Hotels */
+
+.hotels, .popular{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.hotels{
+    flex: 2;
+}
+
+.hotels > h2{
+    margin: 0;
+}
+
+.hotelsTab{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px 0 50px;
+}
+
+.hotelEspace{
+    display: grid;
+    height: 220px;
+    grid-template-rows: 1fr 40%;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.hotelEspace img{
+    width: 100%;
+    height: 126px;
+    object-fit: cover;
+}
+
+.hotelDescription{
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.hotelDescription p{
+    margin: 0;
+}
+
+.hotelClassement{
+    word-spacing: -1ch;
+}
+
+.fa-star{
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+.blueStar{
+    color: #0065FC;
+}
+
+.greyStar{
+    color: #f2f2f2;
+}
+
+.VoirPlus{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
