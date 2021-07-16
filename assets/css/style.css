@@ -126,7 +126,7 @@ nav li a:hover{
 }
 
 
-/* Filtres */
+/* Section Filtres */
 
 .filtresText{
     align-self: center;
@@ -191,7 +191,7 @@ nav li a:hover{
     color: #0065FC;  
 }
 
-/* Hotels */
+/* Section Hotels */
 
 .hotels, .popular{
     background-color: #f2f2f2;
@@ -264,7 +264,7 @@ nav li a:hover{
     font-size: 1.2rem;
 }
 
-/* Populaire */
+/* Section Populaire */
 
 .populaire{
     flex: 1;
@@ -318,4 +318,86 @@ nav li a:hover{
 .populaireDescription .hotelNom + p{
     margin-top: 8px;
     margin-bottom: 0;
+}
+
+/* Section Activités */
+
+.activitésFlash{
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(4, 1fr);
+    gap: 37.5px;
+    height: 450px;
+    grid-auto-flow: column;
+}
+
+.Espace1{
+    grid-row-end: span 13;
+}
+
+.Espace2{
+    grid-row-end: span 7;
+}
+
+.Espace3{
+    grid-row-end: span 6;
+}
+
+.activitésEspace{
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.activitésEspace img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.activitésDescription{
+    align-self: center;
+    background-color: #fff;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer{
+    padding: 40px 50px 50px;
+    background-color: #f2f2f2;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer a:hover{
+    font-weight: 600;
+    color: #0065FC;
+}
+
+@media only screen and (max-width: 1280px){
+
+    .hotels{
+        flex: 1.5;
+    }
+    
+    .hotelsTab{
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        margin: 30px 0;
+    }
+
+    .activitésDescription{
+        font-size: 1rem;
+    }
 }
