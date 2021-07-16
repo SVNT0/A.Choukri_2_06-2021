@@ -401,3 +401,79 @@ footer a:hover{
         font-size: 1rem;
     }
 }
+
+/* Version pour tablette */
+@media only screen and (max-width: 1024px){
+
+    /* Recherche */
+    .filtres{
+        flex-direction: column;
+    }
+
+    .filtresText{
+        align-self: auto;
+        margin-bottom: 15px;
+    }
+
+    .filtre{
+        margin: 0 1rem 1rem 0;
+    }
+
+    /* Populaire */
+
+    .populaire{
+        margin: 0 0 20px;
+    }
+
+    .populaireEspace{
+        height: 180px;
+    }
+
+    .populaireDescription .hotelNom{
+        font-size: 1.4rem;
+    }
+
+    .populaireDescription p{
+        font-size: 1.2rem;
+    }
+
+    .populaireDescription .fa-star{
+        font-size: 1rem;
+    }
+
+    /* Les Hotels */
+    
+    .hotels{
+        order: 2;
+    }
+
+    .conteneurHotels{
+        flex-direction: column;
+    }
+
+    /* Les Activités */
+    
+    .activitésFlash{
+        height: auto;
+    }
+
+    .activitésEspace
+    {
+        height: 190px;
+    }
+
+    .Espace1, .Espace2, .Espace3{
+        grid-row-end: span 4;
+        grid-column-end: span 2;
+    }
+
+    .activitésDescription{
+        font-size: 1.1rem;
+    }
+
+    /* Footer */
+
+    footer div{
+        padding: 10px;
+    }
+}
