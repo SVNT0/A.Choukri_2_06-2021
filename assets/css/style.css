@@ -477,3 +477,182 @@ footer a:hover{
         padding: 10px;
     }
 }
+
+/* Version pour mobiles */
+@media only screen and (max-width: 600px){
+
+    /* Global */
+
+    #main{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+
+    /* Header */
+
+    header{
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .Sinscrire{
+        align-self: flex-end;
+        padding: 0;
+        margin-right: 20px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    nav{
+        order:3;
+    }
+    
+    nav ul{
+        width: 100%;
+    }
+
+    nav li{
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav li a{
+        padding: inherit;
+    }
+
+    nav li a:hover{
+        border-top: none;
+    }
+
+    nav li:hover{
+        border-bottom-color:#0065FC;
+    }
+
+    /* Recherche */
+
+    .recherche{
+        margin: 30px 20px;
+    }
+
+    .RechercheInput{
+        flex: 1;
+    }
+
+    .barrederecherche{
+        margin: 35px 0 30px;
+    }
+
+    .RechercheBouton{
+        position: relative;
+        width: 50px;
+        border-radius: 15px;
+        left: -20px;
+    }
+
+    .RecherhceBouton span{
+        display: none;
+    }
+
+    .RechercheBouton i{
+        display: inline-block;
+    }
+
+    .filtres{
+        margin-bottom: 12px;
+    }
+
+    /* Populaire */
+
+    .populaire{
+        border-radius: 0;
+        padding: 40px 20px 30px;
+        margin-bottom: 40px;
+    }
+
+    .populaireEspace{
+        height: 145px;
+        margin-bottom: 10px;
+    }
+
+    .populaireIcon i{
+        font-size: 1.4rem;
+    }
+
+    .hotelNom{
+        font-size: 1rem !important;
+    }
+
+    .populaireDescription p{
+        font-size: .9rem;
+    }
+
+    .populaireDescription{
+        padding: 15px 10px 10px 20px;
+    }
+
+    .fa-star{
+        font-size: .8rem !important;
+        letter-spacing: 1px;
+    }
+
+    /* Les Hotels */
+
+    .hotelEspace{
+        height: 200px;
+    }
+
+    .hotels{
+        padding: 0 20px;
+        background-color: initial;
+    }
+
+    .hotelsTab{
+        grid-template: repeat(6, 1fr) / 1fr;
+        gap: 15px;
+    }
+
+    .hotelEspace img{
+        height: 116px;
+    }
+
+    .hotelDescription p{
+        font-size: .9rem;
+    }
+
+    /* Les Activités */
+
+    .activités{
+        margin: 55px 20px 45px;
+    }
+
+    .activitésFlash{
+        grid-template: repeat(6, 1fr) / 1fr;;
+        grid-auto-flow: initial;
+        gap: 24px;
+    }
+
+    .Espace1, .Espace2, .Espace3{
+        grid-row-end: span 1;
+        grid-column-end: span 1;
+    }
+
+    /* Footer */
+
+    footer{
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+
+    footer div{
+        padding: 0;
+    }
+}
