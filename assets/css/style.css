@@ -82,6 +82,7 @@ nav li a:hover{
 .barrederecherche{
     margin-bottom: 30px;
     height: 50px;
+    display: flex;
 }
 
 .conteneurMarker{
@@ -89,6 +90,7 @@ nav li a:hover{
     border-radius: 15px 0 0 15px;
     width: 50px;
     flex-shrink: 0;
+    display: flex;
 }
 
 .conteneurMarker i{
@@ -137,6 +139,7 @@ nav li a:hover{
     font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 30px;
+    display: flex;
 }
 
 .filtre{
@@ -147,6 +150,7 @@ nav li a:hover{
     margin-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
+    display: flex;
 }
 
 .filtre span{
@@ -161,6 +165,7 @@ nav li a:hover{
 
 .filtresList{
     flex-wrap: wrap;
+    display: flex;
 }
 
 .filtresIcon{
@@ -170,6 +175,7 @@ nav li a:hover{
     height: 50px;
     border-radius: 50%;
     background-color: #DEEBFF;
+    display: flex;
 }
 
 .filtresIcon i{
@@ -183,12 +189,18 @@ nav li a:hover{
     border: 1px solid #f2f2f2;
     border-radius: 1rem;
     margin-right: 10px;
+    display: flex;
 }
 
 .iconInfo i{
     margin: auto;
     font-size: .9rem;
     color: #0065FC;  
+    display: flex;
+}
+
+.conteneurInfo{
+    display: flex;
 }
 
 /* Section Hotels */
@@ -236,6 +248,7 @@ nav li a:hover{
     justify-content: space-around;
     background-color: #fff;
     padding: 5px 10px;
+    display: flex;
 }
 
 .hotelDescription p{
@@ -264,6 +277,10 @@ nav li a:hover{
     font-size: 1.2rem;
 }
 
+.conteneurHotels{
+    display: grid;
+}
+
 /* Section Populaire */
 
 .populaire{
@@ -274,6 +291,7 @@ nav li a:hover{
 .populaireIcon{
     justify-content: space-between;
     align-items: baseline;
+    display: flex;
 }
 
 .populaireIcon h2{
@@ -293,6 +311,7 @@ nav li a:hover{
     box-shadow: 0 0 7px #c1c1c1;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
 }
 
 .populaireEspace img{
@@ -307,6 +326,7 @@ nav li a:hover{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    display: flex;
 }
 
 .hotelNom{
