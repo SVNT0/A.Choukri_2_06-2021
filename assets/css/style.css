@@ -201,6 +201,7 @@ nav li a:hover{
 
 .conteneurInfo{
     display: flex;
+    margin-bottom: 50px;
 }
 
 /* Section Hotels */
@@ -292,6 +293,8 @@ nav li a:hover{
     justify-content: space-between;
     align-items: baseline;
     display: flex;
+    margin-bottom: 10px;
+    margin-top: -20px;
 }
 
 .populaireIcon h2{
