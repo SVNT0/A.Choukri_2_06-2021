@@ -286,7 +286,8 @@ nav li a:hover{
 
 .populaire{
     flex: 1;
-    margin-left: 3%;
+    margin-top: 50px;
+
 }
 
 .populaireIcon{
