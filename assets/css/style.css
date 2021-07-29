@@ -565,7 +565,14 @@ footer a:hover{
     /* Recherche */
 
     .Recherche{
-        margin: 30px 20px;
+        margin: 5px 5px;
+        text-align: start;
+    }
+
+    .Recherche p{
+        margin-left: 20px;
+        text-align: start;
+        margin-right: 8px;
     }
 
     .RechercheInput{
@@ -585,7 +592,7 @@ footer a:hover{
     }
 
     .RechercheBouton span{
-        display: flex;
+        display: none;
     }
 
     .RechercheBouton i{
@@ -595,6 +602,10 @@ footer a:hover{
     .filtres{
         margin-bottom: 12px;
         margin-left: 20px;
+    }
+
+    .conteneurInfo{
+        margin-left: 15px;
     }
 
     /* Populaire */
