@@ -513,6 +513,7 @@ footer a:hover{
 
     h2{
         font-size: 1.4rem;
+        margin-left: 20px;
     }
 
     /* Header */
@@ -563,7 +564,7 @@ footer a:hover{
 
     /* Recherche */
 
-    .recherche{
+    .Recherche{
         margin: 30px 20px;
     }
 
@@ -573,6 +574,7 @@ footer a:hover{
 
     .barrederecherche{
         margin: 35px 0 30px;
+        margin-left: 20px;
     }
 
     .RechercheBouton{
@@ -582,8 +584,8 @@ footer a:hover{
         left: -20px;
     }
 
-    .RecherhceBouton span{
-        display: none;
+    .RechercheBouton span{
+        display: flex;
     }
 
     .RechercheBouton i{
@@ -592,6 +594,7 @@ footer a:hover{
 
     .filtres{
         margin-bottom: 12px;
+        margin-left: 20px;
     }
 
     /* Populaire */
