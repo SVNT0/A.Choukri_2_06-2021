@@ -352,6 +352,7 @@ nav li a:hover{
     gap: 37.5px;
     height: 450px;
     grid-auto-flow: column;
+    margin-bottom: 60px;
 }
 
 .Espace1{
