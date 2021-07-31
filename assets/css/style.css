@@ -347,9 +347,6 @@ nav li a:hover{
 
 /* Section Activités */
 
-.activités{
-    margin: 40px;
-
 .activitésFlash{
     display: grid;
     grid-template: repeat(12, 1fr) / repeat(4, 1fr);
