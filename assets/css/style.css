@@ -1,7 +1,7 @@
 /* Global */
 
 body{
-    margin: 0;
+    margin: 40px;
     box-sizing: border-box; 
     font-family: 'Raleway', sans-serif;
 }
@@ -280,7 +280,6 @@ nav li a:hover{
 
 .conteneurHotels{
     display: grid;
-    margin: 40px;
 }
 
 /* Section Populaire */
