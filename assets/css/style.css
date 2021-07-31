@@ -73,7 +73,6 @@ nav li a:hover{
 
 .recherche h2{
     margin-bottom: 10px;
-    margin: 0px;
 }
 
 .recherche p{
@@ -348,8 +347,9 @@ nav li a:hover{
 
 /* Section Activités */
 
-.activitésAncre{
+.activitiésAncre{
     margin: 40px;
+}
 
 .activitésFlash{
     display: grid;
