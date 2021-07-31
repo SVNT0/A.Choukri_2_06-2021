@@ -280,6 +280,7 @@ nav li a:hover{
 
 .conteneurHotels{
     display: grid;
+    margin: 40px;
 }
 
 /* Section Populaire */
@@ -345,6 +346,9 @@ nav li a:hover{
 }
 
 /* Section Activités */
+
+.activités{
+    margin: 40px;
 
 .activitésFlash{
     display: grid;
