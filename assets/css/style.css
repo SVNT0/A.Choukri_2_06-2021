@@ -23,7 +23,6 @@ a{
 
 h2{
     font-weight: 700;
-    margin: 40px;
 }
 
 .p1{
@@ -359,6 +358,7 @@ nav li a:hover{
     height: 450px;
     grid-auto-flow: column;
     margin-bottom: 60px;
+    margin: 40px;
 }
 
 .Espace1{
