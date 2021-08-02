@@ -201,7 +201,7 @@ nav li a:hover{
 
 .conteneurInfo{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 /* Section Hotels */
@@ -621,6 +621,7 @@ footer a:hover{
         border-radius: 0;
         padding: 40px 20px 30px;
         margin-bottom: 40px;
+        margin: -40px;
     }
 
     .populaireEspace{
@@ -658,6 +659,7 @@ footer a:hover{
     .hotels{
         padding: 0 20px;
         background-color: initial;
+        margin-top: 60px;
     }
 
     .hotelsTab{
